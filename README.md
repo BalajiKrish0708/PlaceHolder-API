@@ -1,16 +1,33 @@
-# jsonholder_api
+# JSONPlaceholder API Example Flutter
 
-A new Flutter project.
+This Flutter project demonstrates how to use the JSONPlaceholder API with the BLoC pattern. It includes examples of fetching posts, comments, and post details.
+
+## Overview
+
+The project uses the `flutter_bloc` package to manage the state of the application. It includes the following features:
+
+- Fetching posts from the JSONPlaceholder API.
+- Displaying a list of posts.
+- Fetching comments for a selected post.
+- Displaying details for a selected post.
+
+## Project Structure
+
+- `lib/`: Contains the Dart source code for the Flutter project.
+  - `bloc/`: Contains the BLoC classes for managing state.
+  - `models/`: Contains Dart classes representing the data models (Post, Comment, PostDetails).
+  - `screens/`: Contains the Flutter screens (PostList, PostDetails).
+  
+
+## Dependencies
+
+- `flutter_bloc`: For implementing the BLoC pattern.
+- `http`: For making HTTP requests.
+- `connectivity`: For checking network connectivity.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/BalajiKrish0708/PlaceHolder-API.git
