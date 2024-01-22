@@ -31,3 +31,21 @@ The project uses the `flutter_bloc` package to manage the state of the applicati
 
    ```bash
    git clone https://github.com/BalajiKrish0708/PlaceHolder-API.git
+
+2. Navigate to the project directory:
+
+    ```bash
+   cd jsonplaceholder-api-flutter
+
+3. Install dependencies:
+
+    ```bash
+    flutter pub get
+
+4. Run the application:
+
+   ```bash
+    flutter run
+
+    
+
